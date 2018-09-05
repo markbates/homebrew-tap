@@ -1,9 +1,9 @@
 class ReleaseTest < Formula
   desc ""
   homepage ""
-  url "https://github.com/markbates/release-test/releases/download/v1.0.26/release-test_1.0.26_darwin_amd64.tar.gz"
-  version "1.0.26"
-  sha256 "87001b2038b72c53b39339ed4b7e05a629f03241c425cf5aa13124983d7294d7"
+  url "https://github.com/markbates/release-test/releases/download/v1.0.27/release-test_1.0.27_darwin_amd64.tar.gz"
+  version "1.0.27"
+  sha256 "0a7949c7eda354a41136ca5928f5b95618e33782d2d7da56bc69154c9d7411f5"
 
   def install
     bin.install "{{.Binary}}"
