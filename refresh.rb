@@ -1,9 +1,9 @@
 class Refresh < Formula
   desc ""
   homepage ""
-  url "https://github.com/markbates/refresh/releases/download/v1.4.5/refresh_1.4.5_darwin_amd64.tar.gz"
-  version "1.4.5"
-  sha256 "b76ad35b7a43c94e6b7b63824897cf0e59c9e7de548319737e5863ef5de4a02f"
+  url "https://github.com/markbates/refresh/releases/download/v1.4.6/refresh_1.4.6_darwin_amd64.tar.gz"
+  version "1.4.6"
+  sha256 "ea32f9c19e1bf7179503b5f463cb4ca7c3ea78d3a9278db9be64dbbdafc5ef1a"
 
   def install
     bin.install "refresh"
