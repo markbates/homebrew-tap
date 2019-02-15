@@ -1,9 +1,9 @@
 class Deplist < Formula
   desc ""
   homepage ""
-  url "https://github.com/markbates/deplist/releases/download/v1.1.0/deplist_1.1.0_darwin_amd64.tar.gz"
-  version "1.1.0"
-  sha256 "f0415ac36cd1e3bf1068ef221ec1786f05da788ac96dcaf86f5c5e41ff0ea256"
+  url "https://github.com/markbates/deplist/releases/download/v1.1.1/deplist_1.1.1_darwin_amd64.tar.gz"
+  version "1.1.1"
+  sha256 "f75d99df329430b665db6250c8abf641b34b72fb767b7fc728239be4e9271e01"
 
   def install
     bin.install "deplist"
