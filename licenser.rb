@@ -1,9 +1,9 @@
 class Licenser < Formula
   desc ""
   homepage ""
-  url "https://github.com/gobuffalo/licenser/releases/download/v1.1.0/licenser_1.1.0_darwin_amd64.tar.gz"
-  version "1.1.0"
-  sha256 "aeeae19875cf10d5bda783a4e8a501efa25c80d008c68c67a04645e8f0558296"
+  url "https://github.com/gobuffalo/licenser/releases/download/v1.2.0/licenser_1.2.0_darwin_amd64.tar.gz"
+  version "1.2.0"
+  sha256 "166b36e661fc4031b41bc905a388992a5bd50da7c7130b948ad8619a726009ea"
 
   def install
     bin.install "licenser"
