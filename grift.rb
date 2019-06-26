@@ -1,9 +1,9 @@
 class Grift < Formula
   desc ""
   homepage ""
-  url "https://github.com/markbates/grift/releases/download/v1.0.6/grift_1.0.6_darwin_amd64.tar.gz"
-  version "1.0.6"
-  sha256 "fe59b67b135f7d32fe79b8d076a7b7a8aeb3c4990dbe52b1ba07448cd9d0a835"
+  url "https://github.com/markbates/grift/releases/download/v1.1.0/grift_1.1.0_darwin_amd64.tar.gz"
+  version "1.1.0"
+  sha256 "2a5b4b1a91ad7436f805a3412c23a27c45e656a32bdfb36103d6d96cea0ff533"
 
   def install
     bin.install "grift"
