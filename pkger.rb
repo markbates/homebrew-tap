@@ -2,16 +2,16 @@
 class Pkger < Formula
   desc ""
   homepage ""
-  version "0.8.1"
+  version "0.9.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/markbates/pkger/releases/download/v0.8.1/pkger_0.8.1_darwin_amd64.tar.gz"
-    sha256 "7d6edc8ceb1ab46a5e0fb62d625187b1c48a751f6c39ebfb0c70a2e597a50dcb"
+    url "https://github.com/markbates/pkger/releases/download/v0.9.0/pkger_0.9.0_darwin_amd64.tar.gz"
+    sha256 "98fcc2203902e1af8f7c7ba45f8873f8e2ef1ce2755e3153738bc3268a7ec179"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/markbates/pkger/releases/download/v0.8.1/pkger_0.8.1_linux_amd64.tar.gz"
-      sha256 "d9530700a655b3ae883efb5d0b8a508c05ed79b8da4e1df417b42948083d90ce"
+      url "https://github.com/markbates/pkger/releases/download/v0.9.0/pkger_0.9.0_linux_amd64.tar.gz"
+      sha256 "acec99ca6169cd0a1531db470793aebe8773c54e198448409fd9b9ce7eddfa53"
     end
   end
 
