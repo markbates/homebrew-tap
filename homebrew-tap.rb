@@ -2,16 +2,16 @@
 class HomebrewTap < Formula
   desc ""
   homepage ""
-  version "0.1.0"
+  version "0.1.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/markbates/jim/releases/download/v0.1.0/jim_0.1.0_darwin_amd64.tar.gz"
-    sha256 "d58dbefb28e4f30ce6eb2d3f7185510ac76ed97277d51602a24b66f5a74b8912"
+    url "https://github.com/markbates/jim/releases/download/v0.1.1/jim_0.1.1_darwin_amd64.tar.gz"
+    sha256 "903085c897fa98af81804d2897188a4bab0378ce6a1897e73baf87b859b816da"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/markbates/jim/releases/download/v0.1.0/jim_0.1.0_linux_amd64.tar.gz"
-      sha256 "8c7fd3c574814e427bb66460e1d32c0e45a1380cc0c5200e2a276755d5bf1868"
+      url "https://github.com/markbates/jim/releases/download/v0.1.1/jim_0.1.1_linux_amd64.tar.gz"
+      sha256 "733ee02789559665f41fa87ffcb62f97ddbf9eb4a1f5cb1c35e36ca20410344b"
     end
   end
 
