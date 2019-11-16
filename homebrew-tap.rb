@@ -2,20 +2,20 @@
 class HomebrewTap < Formula
   desc ""
   homepage ""
-  version "0.3.3"
+  version "1.5.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/markbates/jim/releases/download/v0.3.3/jim_0.3.3_darwin_amd64.tar.gz"
-    sha256 "713ee53fd606153389b15b3d902f603e83baa5a3fa433bb94cdf9a1726fb164c"
+    url "https://github.com/markbates/grift/releases/download/v1.5.0/grift_1.5.0_darwin_amd64.tar.gz"
+    sha256 "e555cc66aa9e9e019f8151f7fbc8d193b5de08568544d6c440c5ecbd07c47137"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/markbates/jim/releases/download/v0.3.3/jim_0.3.3_linux_amd64.tar.gz"
-      sha256 "9822b36b4f2eb987f956233c04b7658adb7b5712178420dcf6082d63cf2fec0f"
+      url "https://github.com/markbates/grift/releases/download/v1.5.0/grift_1.5.0_linux_amd64.tar.gz"
+      sha256 "21bf6ee68c962707fd3f9b2c8a5af099a57acdb13737ce765a8220e29126d3ff"
     end
   end
 
   def install
-    bin.install "jim"
+    bin.install "grift"
   end
 end
