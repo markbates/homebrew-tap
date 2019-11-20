@@ -2,16 +2,16 @@
 class Clio < Formula
   desc ""
   homepage ""
-  version "0.1.18"
+  version "0.1.19"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/markbates/clio/releases/download/v0.1.18/clio_0.1.18_Darwin_x86_64.tar.gz"
-    sha256 "1fb28f57ee29018c90123da667183d5c68bd9a0b4dbc1c9c8d4acc0d8e4ac629"
+    url "https://github.com/markbates/clio/releases/download/v0.1.19/clio_0.1.19_Darwin_x86_64.tar.gz"
+    sha256 "51d0cf0d3160965bdb81dc3c93bda974c3694b81dccef3b943dde5470f464c3b"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/markbates/clio/releases/download/v0.1.18/clio_0.1.18_Linux_x86_64.tar.gz"
-      sha256 "37959ec75f7dcaf5c5355407a6065b951b1512ac99d1136c5f2a4bb946f95951"
+      url "https://github.com/markbates/clio/releases/download/v0.1.19/clio_0.1.19_Linux_x86_64.tar.gz"
+      sha256 "9f7ecd2a7b70071b9044b7677c79d260869d1776f37d3063a5aad9d7814ff8fc"
     end
   end
 
