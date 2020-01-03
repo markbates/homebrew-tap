@@ -2,24 +2,24 @@
 class Jim < Formula
   desc ""
   homepage ""
-  version "0.4.0"
+  version "0.5.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/markbates/jim/releases/download/v0.4.0/jim_0.4.0_Darwin_x86_64.tar.gz"
-    sha256 "470bda1139501c1d44d05d1229657798e4756fd1015f5cd961e4f91086f5d166"
+    url "https://github.com/markbates/jim/releases/download/v0.5.0/jim_0.5.0_Darwin_x86_64.tar.gz"
+    sha256 "3317e94b69783a495846ccc1a85bf8ff0b476bb699bb2de6789f735c104e606b"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/markbates/jim/releases/download/v0.4.0/jim_0.4.0_Linux_x86_64.tar.gz"
-      sha256 "9a2b8ae3c80664f7764d0f83343f1fb7a5a91468d556d98c509635cf90f7b9da"
+      url "https://github.com/markbates/jim/releases/download/v0.5.0/jim_0.5.0_Linux_x86_64.tar.gz"
+      sha256 "7e12f275ee7822793c8216f58b1a86de96c5e7fb87afdb7c34dc71d8644ac28a"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/markbates/jim/releases/download/v0.4.0/jim_0.4.0_Linux_arm64.tar.gz"
-        sha256 "9c9930802dc94853c29b02bbd4f07667b909c4b9c8aa4ae335862007af344c40"
+        url "https://github.com/markbates/jim/releases/download/v0.5.0/jim_0.5.0_Linux_arm64.tar.gz"
+        sha256 "7a0350734cce6c5f082e8a10d40cfeb5dbd213ebc4e1f1945f561f17c60966b3"
       else
-        url "https://github.com/markbates/jim/releases/download/v0.4.0/jim_0.4.0_Linux_armv6.tar.gz"
-        sha256 "8f897f7a8913462ff43d9b6baa3dde36dfdb018896c0b0b33829f7c03e18d46e"
+        url "https://github.com/markbates/jim/releases/download/v0.5.0/jim_0.5.0_Linux_armv6.tar.gz"
+        sha256 "af4bb5d7220bcd0a8723b309db7e65cba03946431164feada3673b0f9078b079"
       end
     end
   end
