@@ -2,24 +2,24 @@
 class Refresh < Formula
   desc ""
   homepage ""
-  version "1.10.0"
+  version "1.11.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/markbates/refresh/releases/download/v1.10.0/refresh_1.10.0_Darwin_x86_64.tar.gz"
-    sha256 "30c92c92d3bbbf40a2eec546002b4dfd3fa8851c1e2bc6e1be8f58531edb41d2"
+    url "https://github.com/markbates/refresh/releases/download/v1.11.0/refresh_1.11.0_Darwin_x86_64.tar.gz"
+    sha256 "d3fc14e7635fd4e3615898f9d5c67178ca4c2b500d182c4068ea6bed3f36c5d9"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/markbates/refresh/releases/download/v1.10.0/refresh_1.10.0_Linux_x86_64.tar.gz"
-      sha256 "58df3cc5d12e67cc328d344eac344111dac92e62158b7f38049466a3bb1b1c0b"
+      url "https://github.com/markbates/refresh/releases/download/v1.11.0/refresh_1.11.0_Linux_x86_64.tar.gz"
+      sha256 "9c66d20587b7b89141ee177c9691005c6588608b8241f6e496f7ad7de2a6cd6c"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/markbates/refresh/releases/download/v1.10.0/refresh_1.10.0_Linux_arm64.tar.gz"
-        sha256 "b24271dedb77374d636f300bb134a8bb2ca545872867db7a9183e35f2d7d0f9e"
+        url "https://github.com/markbates/refresh/releases/download/v1.11.0/refresh_1.11.0_Linux_arm64.tar.gz"
+        sha256 "e5f7750bd5f36384e9acd794e17147f90dd3f2837444d896ca2c2069dce45376"
       else
-        url "https://github.com/markbates/refresh/releases/download/v1.10.0/refresh_1.10.0_Linux_armv6.tar.gz"
-        sha256 "33b71e58c470bc8ae15e46a124eda59893adca3b0f113f36982acd89f21b7afb"
+        url "https://github.com/markbates/refresh/releases/download/v1.11.0/refresh_1.11.0_Linux_armv6.tar.gz"
+        sha256 "b623eca94589826cb2d6c9af9d4e916ec4ab7a5f054127a87196f0a3339ca7e0"
       end
     end
   end
