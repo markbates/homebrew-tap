@@ -2,24 +2,24 @@
 class Pkger < Formula
   desc ""
   homepage ""
-  version "0.15.0"
+  version "0.15.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/markbates/pkger/releases/download/v0.15.0/pkger_0.15.0_Darwin_x86_64.tar.gz"
-    sha256 "2de93a8f13dfdc1d08d628046cf67baaa7c1e07277d49cb817303168ee5b912e"
+    url "https://github.com/markbates/pkger/releases/download/v0.15.1/pkger_0.15.1_Darwin_x86_64.tar.gz"
+    sha256 "11f0617d1a921afbd25551a26cd990a7bf6f46d12b2efb501016786ca5ffa2f4"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/markbates/pkger/releases/download/v0.15.0/pkger_0.15.0_Linux_x86_64.tar.gz"
-      sha256 "192aa9383398042395d83b2404680b284ff04e70c55d8574e830285d73793245"
+      url "https://github.com/markbates/pkger/releases/download/v0.15.1/pkger_0.15.1_Linux_x86_64.tar.gz"
+      sha256 "2b503c2ed6c1a006bc6a815673a93ff52b0d1749a92fa029dee4efc8ba54d9da"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/markbates/pkger/releases/download/v0.15.0/pkger_0.15.0_Linux_arm64.tar.gz"
-        sha256 "8b6e77015a15d7c4d3899da95474b757bd8e54c22511f3c5b09fc70b5b432cbc"
+        url "https://github.com/markbates/pkger/releases/download/v0.15.1/pkger_0.15.1_Linux_arm64.tar.gz"
+        sha256 "1af6d1e0ddefaaa8f2bb8a33e148643ea192db8289b130076443c5cb8756e6ef"
       else
-        url "https://github.com/markbates/pkger/releases/download/v0.15.0/pkger_0.15.0_Linux_armv6.tar.gz"
-        sha256 "ea35f75314cf02f748612d39c190e1fd064be6ad1bd9e75c895c4f124ab4eb8b"
+        url "https://github.com/markbates/pkger/releases/download/v0.15.1/pkger_0.15.1_Linux_armv6.tar.gz"
+        sha256 "b7f5cf54dc17d17c56de61d7321388a1c3c5c47cc94690491723e183bc39001c"
       end
     end
   end
